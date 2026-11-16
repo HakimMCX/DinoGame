@@ -14,7 +14,7 @@ let score = 0;
 let highScore = Number(localStorage.getItem("dinoHighScore")) || 0;
 
 const dinoImg = new Image(); //create new image object
-dinoImg.src = "images/dino2.png"; //attach sprite
+dinoImg.src = "images/dino1.png"; //attach sprite
 
 function drawDino() {
     // draw image at x, y and width, height we set earlier
